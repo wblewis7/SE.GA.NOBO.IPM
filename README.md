@@ -23,77 +23,77 @@ Birds were captured annually using baited traps during mid-October - mid-Novembe
 ## November and December harvest data
 Data from bobwhite harvested on the property was subset to November (mid-November - end of November) and December (end of November - mid-December). Harvested subadults were aged to monthly cohorts as with the trapping data.<br />
 <br />
-## The 43 objects in the gzip data file are described below.
+## The 43 objects in the gzip data file are described below
 ### years
 The years of data collection
-# nyears
+### nyears
 The number of years of the study
-# n.b.months
+### n.b.months
 The number of months during the breeding season (April - September)
-# n.breeding.months
+### n.breeding.months
 The number of months during which chicks enter the population (June - September). A few nests hatched at the end of May, these were lumped in with the June cohort.
-# CH.sex
+### CH.sex
 The sex of birds tracked via radiotelemetry (1=male, 2=female).
-# CH.age
+### CH.age
 The age/season of birds tracked via radiotelemetry for each bi-weekly period. This data is constrained to the deployment period, from deployment until either mortality or censure. 0 represents mortality, 1 represents alive non-breeding subadult, 2 represents alive non-breeding adult, and 3 represents alive breeding adult.
-# CH.state
+### CH.state
 The alive/dead state of birds tracked via radiotelemetry for each bi-weekly period (0=dead, 1=alive). This data is constrained to the deployment period, from the deployment until either mortality or censure.
-# CH.year
+### CH.year
 The year of the study for each bi-weekly tracking period.
-# nCH
+### nCH
 The number of birds tracked via radiotelemetry.
-# trackdates
+### trackdates
 The bi-weekly tracking periods, beyond the deployment period, for which each bird was tracked via radiotelemetry.
-# trackperiods
+### trackperiods
 The number of bi-weekly tracking periods, beyond the depolyment period, for which each bird was tracked via radiotelemetry.
-# chicks.nest.mean and chicks.nest.sd
+### chicks.nest.mean and chicks.nest.sd
 A 4x2x25 array giving the mean and standard deviation, respectively, of the number of chicks produced in each month of the breeding season (June - September, x-dim), for each sex (1=males, 2=females, y-dim), and in each year of the study (z-dim). Some nests were missing data on the clutch size or number of chicks hatched. We estimated the chick production for these nests in a preliminary analysis using the observed clutch sizes and hatch rates for observed nests in the same month/year, then summed the estimated and observed number of chicks produced from nests hatching in each month, year, and from each sex. These datsets contain the mean and standard deviation of the posterior samples from the preliminary analysis. A value of 0 for chicks.nest.sd represents that no nests were missing information on number hatched for that month, sex, and year.
-# N.tracked
+### N.tracked
 A 4x2x25 array giving the number of adult birds from each month of the breeding season (June - September, x-dim), for each sex (1=males, 2=females, y-dim), and in each year of the study (z-dim) from which productivity data was collected.
-# count
+### count
 The number of coveys detected on annual November count surveys.
-# csize.mean and csize.sd
+### csize.mean and csize.sd
 The mean and standard deviation, respectively, of the number of birds/covey/year estimated from coveys flushed by bird dogs.
-# csize.min and csize.max
+### csize.min and csize.max
 The 2.5% and 97.5% quantiles, respectively, of observed covey sizes across the entire study period.
-# effort
+### effort
 The proportion of the 12 grid cells surveyed for bobwhite covey abundance in each year.
-# avail.mean and avail.sd
+### avail.mean and avail.sd
 The annual mean and standard deviation, respectively, of covey calling availability. The estimates are on the logit scale and were calculated based on observed neighbor density on covey counts (number of coveys detected - 1) and parameters relating neighbor density and calling availability reported by Wellendorf et al. (2004).
-# avail.min and avail.max
+### avail.min and avail.max
 The minimum and maximum, respectively, of covey calling availability estimates across the entire study period. The estimates are on the logit scale.
-# pdet_mean and pdet_sd
+### pdet_mean and pdet_sd
 The mean and standard deviation, respectively, of the probability that an available coveys will be detected by at least one observer during surveys. The estimates are on the logit scale and were calculated from data provided in Howell et al. (2021).
-# trap.am.af.sub
+### trap.am.af.sub
 A 25x3 matrix giving the number of adult males (1st column), adult females (2nd column), and subadults of either sex (3rd column) captured and banded during the fall trapping season in each year of the study (rows). Subadults are not grouped by sex because many could not be reliably differentiated.
-# trap.sub.cohort
+### trap.sub.cohort
 A 25x4 matrix giving the number of subadults from the June (1st column), July (2nd column), August (3rd column), and October (4th column) breeding cohorts captured and banded during the fall trapping season in each year of the study (rows). Subadults captured in the fall were aged and backdated to hatch month based on primary feather molt as in Rosene (1969).
-# trap.N
+### trap.N
 The number of birds captured each year during the fall trapping period.
-# trap.cohort.N
+### trap.cohort.N
 The number of subadult birds captured each year during the fall trapping period.
-# nyears.trap
+### nyears.trap
 The number of years for which trapping data is available.
-# harv.cohort.Nov
+### harv.cohort.Nov
 A 24x4 matrix giving the number of subadults from the June (1st column), July (2nd column), August (3rd column), and October (4th column) breeding cohorts harvested from mid-late November in each year of the study (rows). Subadults captured in the fall were aged and backdated to hatch month based on primary feather molt as in Rosene (1969).
-# harv.cohort.Dec
+### harv.cohort.Dec
 A 23x3 matrix giving the number of subadults from the June/July (1st column), August (2nd column), and October (3rd column) breeding cohorts harvested from late-November to mid-December in each year of the study (rows). Subadults from the June and July cohorts could not be reliably separated based on primary molt during this period, so they were lumped for analysis. Subadults captured in the fall were aged and backdated to hatch month based on primary feather molt as in Rosene (1969).
-# harv.ratio.years
+### harv.ratio.years
 The years of the study for which November harvest data is available.
-# harv.ratio.years.n
+### harv.ratio.years.n
 The number of years for which November harvest data is available.
-# harv.ratio.years.Dec
+### harv.ratio.years.Dec
 The years of the study for which December harvest data is available.
-# harv.ratio.years.Dec.n
+### harv.ratio.years.Dec.n
 The number of years for which December harvest data is available.
-# Area
+### Area
 The area (ha) of the survey grids.
-# phi.j.prior.mean
+### phi.j.prior.mean
 The mean daily survival rate of juveniles from the June (1st), July (2nd), August (3rd), and September (4th) monthly breeding cohorts. Estimates are on the logit scale and were taken from Terhune et al. (2019).
-# phi.j.prior.sd
-The standard deviation for daily survival rates of juveniles. The estimate is on the logit scale and was taken from Terhune et al. (2019).
+### phi.j.prior.sd
+The standard deviation for daily survival rates of juveniles. The estimate is on the logit scale and was taken from Terhune et al. (2019). <br />
 
-
+<br />
 
 
 # Code_NOBO_IPM_S_GA.R
