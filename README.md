@@ -24,7 +24,7 @@ Birds were captured annually using baited traps during mid-October - mid-Novembe
 Data from bobwhite harvested on the property was subset to November (mid-November - end of November) and December (end of November - mid-December). Harvested subadults were aged to monthly cohorts as with the trapping data.
 
 <br>
-There are 43 objects in the gzip data file
+The 43 objects in the gzip data file are described below.
 ### years
 The years of data collection
 # nyears
