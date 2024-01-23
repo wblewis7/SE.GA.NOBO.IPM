@@ -21,9 +21,9 @@ Coveys were surveyed annually in mid-October - mid-November using a 4-person qua
 ## November trapping data
 Birds were captured annually using baited traps during mid-October - mid-November. Captured birds were banded with a uniquely-number aluminum leg band and classified by sex and age (adults or subadults) based on plumage. Subadults were aged to the specifically monthly cohort in which they were hatched based on the pattern of primary feather molt (Rosene 1969).
 ## November and December harvest data
-Data from bobwhite harvested on the property was subset to November (mid-November - end of November) and December (end of November - mid-December). Harvested subadults were aged to monthly cohorts as with the trapping data.
+Data from bobwhite harvested on the property was subset to November (mid-November - end of November) and December (end of November - mid-December). Harvested subadults were aged to monthly cohorts as with the trapping data.<br />-
 
-<br />
+<br />-
 ## The 43 objects in the gzip data file are described below.
 ### years
 The years of data collection
