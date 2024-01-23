@@ -20,9 +20,11 @@ Nests were found during the breeding season primarily through radiotelemetry, th
 Coveys were surveyed annually in mid-October - mid-November using a 4-person quadrat-sampling method. About 3/4 of the 12 sampling grids were surveyed in a given year. Bird dogs were used at a subset of grids each year to flush coveys and estimate covey size. Covey counts are related to population abundance through observed average covey sizes, the proportion of grids surveyed, covey calling availability, and detection probability. Calling availability (probability of a covey calling during the survey) is estimated based on the observed neighbor density and parameters reported by Wellendorf et al. (2004). Detection (probability of an available covey being detected by at least one observer) is estimated based on data from Howell et al. (2021). 
 ## November trapping data
 Birds were captured annually using baited traps during mid-October - mid-November. Captured birds were banded with a uniquely-number aluminum leg band and classified by sex and age (adults or subadults) based on plumage. Subadults were aged to the specifically monthly cohort in which they were hatched based on the pattern of primary feather molt (Rosene 1969).
-# November and December harvest data
+## November and December harvest data
 Data from bobwhite harvested on the property was subset to November (mid-November - end of November) and December (end of November - mid-December). Harvested subadults were aged to monthly cohorts as with the trapping data.
 
+<br>
+There are 43 objects in the gzip data file:
 ### years
 The years of data collection
 # nyears
