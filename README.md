@@ -12,18 +12,18 @@ authors: William B. Lewis, Justin A. Rectenwald, D. Clay Sisson, and James A. Ma
 
 The data for the northern bobwhite (Colinus virginianus, NOBO) project are stored in the 'S.GA.NOBO.IPM.data' gzip file. These data were collected from 1998 - 2022 at a managed property in southern Geogria, USA. The biological year for the population model was specified as starting on April 1st, with the breeding season extending April - September and the non-breeding season extending from October - March. In the population model, juveniles enter the population in June-September, transition to subadults at the start of the non-breeding season in October, and transition to adults at the start of the subsequent breeding season in April. The data
 comes from 7 main databases: radiotelemetry survival data, monthly productivity data from the breeding season (June-September), November covey count data, trapping (capture) ratio data from November, and harvest ratio data from November and December.
-# Radiotelemetry survival data
+## Radiotelemetry survival data
 Males and females were captured annually using baited traps during the late fall and spring. A subset of captured birds were fit with a radiotransmitter and tracked at least twice weekly until either mortality or radito failure. Capture histories were condensed into bi-weekly periods.
-# Monthly productivity data
+## Monthly productivity data
 Nests were found during the breeding season primarily through radiotelemetry, though some were found incidentally. The majority of nests were incubated by females, though a percentage of nests in each year were incubated by males. Nests were monitored until either hatch or fail, and fate, clutch size, number hatched, and identity of attending adult were recorded. Productivity data was aggregated to the number of chicks produced from successful nests attended by males and females in each month of the breeding season. In some cases, the clutch size or number hatched was not recorded for a nest. For these nests, we performed a preliminary analysis to estimate the missing data based on the clutch sizes and/or hatch rates observed in other nests for that month/year. This dataset also incorporated the number of breeding adults of each sex/month/year. This was calculated as the number of radiotracked adults of each sex alive at the start of the month, plus the number of birds for which nests were found incidentally.
-# November covey count data
+## November covey count data
 Coveys were surveyed annually in mid-October - mid-November using a 4-person quadrat-sampling method. About 3/4 of the 12 sampling grids were surveyed in a given year. Bird dogs were used at a subset of grids each year to flush coveys and estimate covey size. Covey counts are related to population abundance through observed average covey sizes, the proportion of grids surveyed, covey calling availability, and detection probability. Calling availability (probability of a covey calling during the survey) is estimated based on the observed neighbor density and parameters reported by Wellendorf et al. (2004). Detection (probability of an available covey being detected by at least one observer) is estimated based on data from Howell et al. (2021). 
-# November trapping data
+## November trapping data
 Birds were captured annually using baited traps during mid-October - mid-November. Captured birds were banded with a uniquely-number aluminum leg band and classified by sex and age (adults or subadults) based on plumage. Subadults were aged to the specifically monthly cohort in which they were hatched based on the pattern of primary feather molt (Rosene 1969).
 # November and December harvest data
 Data from bobwhite harvested on the property was subset to November (mid-November - end of November) and December (end of November - mid-December). Harvested subadults were aged to monthly cohorts as with the trapping data.
 
-# years
+### years
 The years of data collection
 # nyears
 The number of years of the study
